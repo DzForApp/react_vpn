@@ -1,1 +1,9 @@
- 
+ .Clock_Container{
+     display: flex;
+     flex-direction: rox; 
+     justify-content: space-between;  
+     margin-left: 1%;
+     margin-right: 1%;
+     margin-top: 10%;
+  
+ }
