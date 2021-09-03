@@ -6,7 +6,7 @@ class Page1 extends Component{
         return(
         
             <div >
-            <h1>Web Developement Technologies 2020 </h1>
+            <h1>Quizz App </h1>
             <h3></h3>
             </div>
         )

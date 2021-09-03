@@ -20,10 +20,10 @@ class Toolbar extends Component{
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/1">Skills</Link>
+                            <Link to="/1">Quizz</Link>
                         </li>
                         <li>
-                            <Link to="/2">Projects</Link>
+                            <Link to="/2">World Clock</Link>
                         </li>
                     </ul>
                     </div>

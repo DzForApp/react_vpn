@@ -1,4 +1,5 @@
 import React ,{Component} from "react"; 
+import AppTest from "../../AppTest";
 
 
 class Page2 extends Component{
@@ -6,8 +7,8 @@ class Page2 extends Component{
         return(
         
             <div >
-            <h1>Our Training Lab Comming Soon </h1>
-             
+            <h1>World's Clock </h1>
+             <AppTest />
             </div>
         )
     }
