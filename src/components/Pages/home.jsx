@@ -1,12 +1,15 @@
 import React ,{Component} from "react"; 
+import HomeIntro from "../HomeIntro/HomeIntro";
 import './home.css';
+import SideDrawer from "../SideDrawer/SideDrawer";
 
 class Home extends Component{
     render(){
         return(
             <div className="title" >
-            <h1>Welcome to our React Training Projects </h1>
-            <h3></h3>
+            <SideDrawer />
+            <HomeIntro />
+           
             </div>
         )
     }

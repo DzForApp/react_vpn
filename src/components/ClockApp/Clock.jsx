@@ -1,6 +1,6 @@
 import React from "react"
 import './Clock.css'
- import Card from './Card/Card'
+ import Card from '../Card/Card'
 
 class Clock extends React.Component {
     constructor(props){

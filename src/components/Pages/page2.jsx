@@ -1,5 +1,6 @@
 import React ,{Component} from "react"; 
-import AppTest from "../../AppTest";
+import ClockApp from "../ClockApp/ClockApp";
+import AppTest from "../ClockApp/ClockApp";
 
 
 class Page2 extends Component{
@@ -8,7 +9,7 @@ class Page2 extends Component{
         
             <div >
             <h1>World's Clock </h1>
-             <AppTest />
+             <ClockApp />
             </div>
         )
     }

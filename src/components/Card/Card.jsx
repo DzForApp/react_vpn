@@ -1,6 +1,6 @@
 import React from "react"
 import './card.css'
-import Clock from '../Clock'
+import Clock from '../ClockApp/Clock'
  
  
 class CardHeader extends React.Component {
@@ -70,7 +70,7 @@ class CardHeader extends React.Component {
     render() {
         const { image } = this.props;
         var style = { 
-            backgroundImage: 'url(' + 'https://source.unsplash.com/user/erondu/1000x1000' + ')',
+            backgroundImage: 'url(' + 'https://source.unsplash.com/user/erondu/300x60' + ')',
         };
       return (
         <div className="main_card">
