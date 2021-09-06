@@ -5,5 +5,30 @@
 .title {
     right: 0; 
     width: 100%;
+    margin-left: 0%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    z-index: 10;
     
+}
+.intro-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.service-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.side-box{
+    position: relative;
+}
+.home-box{
+    
+    position: relative;
+    width: 100%;
+    margin-left: 20%;
 }

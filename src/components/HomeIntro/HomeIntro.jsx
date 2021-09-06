@@ -19,28 +19,24 @@ import intro from '../../images/intro3.png'
          
       return (
         <div className="main_intro">
-            <article className="intro">
+            <div className="intro">
           
                 <div className="intro-body">
-
-                    <p className="date">Hi I'm Radwan Azeroual</p>
-                    <h2>Rdz</h2>
-                    <h2 className="body-content"> Front-end Devloper</h2>
-            
-                    <button className="button button-primary">
-                        <i className="fa fa-chevron-right"></i> Contact-us
-                    </button>
-            
+                  <div className="intro-text">
+                       
+                      <h3>Hi I'm Radwan Azeroual Rdz</h3>
+                      <h2 className="front-text"> Front-end Devloper</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Et, volutpat feugiat placerat lobortis. <br />Natoque rutrum semper sed suspendisse nunc lectus.</p>
+                      <button className="intro-btn btn-yellow ">Hire me</button>
+                  </div>
+                      
+                  <div   className="intro_img"> 
+                    <img src={intro} height={550} width={550}  />
+                  </div>
                 </div>
     
-            
-                <div   className="intro_img"> 
-                 <img src={intro} height={600} width={700}  />
-                
-                </div>
-              
-           
-            </article>
+          
+            </div>
         </div>
       )
     }

@@ -4,16 +4,51 @@
     flex-direction: row;
     width: 100%;
     height: 50%;
-    background-color: red;
+    background-color: white;
+    position: relative;
+    margin-left: 0%;
+    z-index: 0;
 }
 .intro-body{
-    background-color: green;
-    width: 25%;
+  
+    width: 100%;
     height: 50%;
+    box-shadow: 0.5px 0.5px rgb(0, 0, 0.5);
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    border-left: ridge;
+    border-right: ridge;
+    border-bottom-left-radius: ridge;
+    border-bottom-right-radius: ridge;
 }
 .intro_img {
  
-    margin-right: 0cm;
-    background-color: black;
+    padding-right: 0.5rem;
+    padding-top: 0rem;
     height: 100%;
+}
+.front-text{
+     color: #FFB400;
+}
+.intro-btn {
+    background-color: #FFB400;
+    border-radius: 5%;
+    position: relative;
+    width: 50%;
+    height: 15%;
+    
+    
+}
+.intro-text{
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: #2F4858;
+    padding-top: 7rem;
+    font-size: 18px;
+    
 }

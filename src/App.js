@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Toolbar from './components/NavBar/Toolbar';
  import Main from './components/Main/main';
 import { Switch, Route, Link } from 'react-router-dom';
-import SideDrwaer from './components/SideDrawer/SideDrawer'
+import SideDrawer from './components/SideDrawer/SideDrawer'
 import BackDrop from './components/BackDrop/BackDrop';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import HomeIntro from './components/HomeIntro/HomeIntro';
 
 class App extends Component{
   state ={
@@ -19,21 +20,30 @@ class App extends Component{
   };
 
   render(){
-    let sidedrawer;
-    let backdrop;
-
-    if(this.state.sideDrawerOpen) {
-      sidedrawer =<SideDrwaer />;
-      backdrop =<BackDrop />
-    }
+     
   return (
     <div className="App">
-      <Toolbar DrawerClickHandler ={this.props.darwerToggleClickHandler}/>
-      
-      <main style={{marginTop : "55px"}}>
-      <Main />
-      </main>
-       
+      <Grid fluid>
+        <Row>
+          <Toolbar />
+          
+        </Row>
+        <Row xs={12} md={3}>
+          <Col xs={2}>
+             
+            </Col>
+           <Col xs={8} md={8}> 
+            <Main />
+           </Col>
+           <Col xs={2}>
+             
+            </Col>
+            
+          
+          
+        </Row>
+      </Grid>
+    
     </div>
   );
   }

@@ -16,6 +16,16 @@
     margin-top: 10%;
  }
  .App{
-     background-color:aliceblue;
-     height: 50rem;
+     width: 100%;
+     height: 100%;
+      position: relative;
+     background-color: cadetblue;
+      
+ }
+ .main-container{
+     position: relative;
+     background-color: black;
+   
+     width: 100%;
+     height: 100%;
  }
