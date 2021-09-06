@@ -34,15 +34,11 @@ import "./ServiceBox.css";
       return (
         <div className="main_card">
             <article className="card">
-          
-                <header  className="card-header">
-                    <h4 className="card-header--title">Name Service</h4>
-                </header>
-                <div className="card-body">
+              <div className="card-body">
 
                  
-                    <h2>Service 1</h2>
-                    <h2 className="body-content">Web Service delploiment</h2>
+                    <h2>{this.props.name}</h2>
+                    <p className="body-content">More description</p>
             
                     <button className="button button-primary">
                         <i className="fa fa-chevron-right"></i> Find out more

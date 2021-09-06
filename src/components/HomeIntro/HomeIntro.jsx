@@ -31,7 +31,7 @@ import intro from '../../images/intro3.png'
                   </div>
                       
                   <div   className="intro_img"> 
-                    <img src={intro} height={550} width={550}  />
+                    <img src={intro} height={450} width={450}  />
                   </div>
                 </div>
     

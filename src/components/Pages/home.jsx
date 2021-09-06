@@ -3,6 +3,7 @@ import HomeIntro from "../HomeIntro/HomeIntro";
 import './home.css'; 
 import ServiceBox from "../ServiceBox/ServiceCard";
 import SideDrawer from "../SideDrawer/SideDrawer";
+import RightToolbar from "../RightSideNavBar/RightToolbar";
 
 class Home extends Component{
     render(){
@@ -17,7 +18,19 @@ class Home extends Component{
                     <HomeIntro />
                     </div>
                     <div className="service-box">
-                        <ServiceBox />
+                        <ServiceBox name="Web App Devlopment" />
+                        <ServiceBox name="Database Design"/>
+                        <ServiceBox name="Software Architecure" />
+                        
+                    </div>
+                    <div className="service-box">
+                        <ServiceBox name="Training your team" />
+                        <ServiceBox name="Securing your Apps"/>
+                        <ServiceBox name="Auditing your organisation"    />
+                        
+                    </div>
+                    <div className="project-box">
+                        <ServiceBox name="Project 1" />
                         <ServiceBox />
                         <ServiceBox />
                         
@@ -28,6 +41,15 @@ class Home extends Component{
                     <div className="intro-box">
                     <HomeIntro />
                     </div>
+                    <div className="intro-box">
+                    <HomeIntro />
+                    </div>
+                    <div className="intro-box">
+                    <HomeIntro />
+                    </div>
+                </div>
+                <div className="right-side-box">
+                    <RightToolbar />
                 </div>
             </div>
         )

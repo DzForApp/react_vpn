@@ -7,6 +7,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer'
 import BackDrop from './components/BackDrop/BackDrop';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import HomeIntro from './components/HomeIntro/HomeIntro';
+import RightToolbar from './components/RightSideNavBar/RightToolbar';
 
 class App extends Component{
   state ={
@@ -29,14 +30,16 @@ class App extends Component{
           
         </Row>
         <Row xs={12} md={3}>
-          <Col xs={2}>
-             
-            </Col>
-           <Col xs={8} md={8}> 
-            <Main />
-           </Col>
+         
+          <Col xs={1}>
+          </Col>
+         
+                  <Col xs={8} md={8}> 
+                    <Main />
+                  </Col>
+         
            <Col xs={2}>
-             
+            
             </Col>
             
           
