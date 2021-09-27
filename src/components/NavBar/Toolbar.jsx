@@ -17,16 +17,32 @@ class Toolbar extends Component{
                     <div className="toolbar_navigation_items">
                     <ul >
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/">About</Link>
                         </li>
                         <li>
-                            <Link to="/1">Quizz</Link>
+                            <Link to="/1">Features</Link>
                         </li>
                         <li>
-                            <Link to="/2">World Clock</Link>
+                            <Link to="/2">Pricing</Link>
                         </li>
+                        <li>
+                            <Link to="/2">TestiMonial</Link>
+                        </li>
+                        <li>
+                            <Link to="/2">Help</Link>
+                        </li>
+                        
+                        
                     </ul>
                     </div>
+                    <div className="spacer"></div>
+                    <div className="log_btn_container">
+                        <button className="log_btn"></button>
+                        
+                        <button className="log_btn"></button>
+                         
+                    </div>
+                    
                 </nav>
             </header>
         )

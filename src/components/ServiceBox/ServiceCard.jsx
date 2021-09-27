@@ -16,10 +16,7 @@ import "./ServiceBox.css";
  
   
   class ServiceBox extends React.Component {
-    constructor(props){
-        super(props)
-        
-    }
+  
 
     componentDidMount() {
        
@@ -36,14 +33,10 @@ import "./ServiceBox.css";
             <article className="card">
               <div className="card-body">
 
-                 
-                    <h2>{this.props.name}</h2>
-                    <p className="body-content">More description</p>
-            
-                    <button className="button button-primary">
-                        <i className="fa fa-chevron-right"></i> Find out more
-                    </button>
-            
+                    <i>icons</i>
+                    <h2>{this.props.num}</h2>
+                    <p className="body-content">{this.props.name}</p>
+             
                 </div>
            
             </article>

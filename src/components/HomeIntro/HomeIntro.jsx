@@ -1,6 +1,6 @@
 import React from "react"
 import "./HomeIntro.css"
-import intro from '../../images/intro3.png'
+import intro from '../../images/svg/mainsvg.svg'
 
  class HomeIntro extends React.Component {
     constructor(props){
@@ -24,10 +24,10 @@ import intro from '../../images/intro3.png'
                 <div className="intro-body">
                   <div className="intro-text">
                        
-                      <h3>Hi I'm Radwan Azeroual Rdz</h3>
-                      <h2 className="front-text"> Front-end Devloper</h2>
+                      <h3>Want anything to be</h3>
+                      <h2 className="front-text">easy with LaslesVPN</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Et, volutpat feugiat placerat lobortis. <br />Natoque rutrum semper sed suspendisse nunc lectus.</p>
-                      <button className="intro-btn btn-yellow ">Hire me</button>
+                      <button className="intro-btn btn-yellow ">Get Started</button>
                   </div>
                       
                   <div   className="intro_img"> 

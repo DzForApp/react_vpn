@@ -7,7 +7,7 @@ class Page1 extends Component{
         
             <div >
             <h1>Quizz App </h1>
-            <h3></h3>
+      
             </div>
         )
     }
