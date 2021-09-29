@@ -1,12 +1,10 @@
 import React  from "react"; 
-import "./ServiceBox.css"; 
+import "./PlanCard.css"; 
 
  
   
- 
- 
   
-  class ServiceCard extends React.Component {
+  class PlanCard extends React.Component {
   
 
     componentDidMount() {
@@ -20,11 +18,11 @@ import "./ServiceBox.css";
    
     render() {
       return (
-        <div className="main_card">
+        <div className="plan_main">
              
-              <div className="card_body">
-                    <div className="card_icon">{this.props.Icon} </div>
-                    <div className="card_detail">
+              <div className="plan_body">
+                    <div className="plan_icon">{this.props.Icon} </div>
+                    <div className="plan_detail">
                     <h3>{this.props.num}</h3>
                     <p className="body-content">{this.props.name}</p>
                     </div>
@@ -37,4 +35,4 @@ import "./ServiceBox.css";
   }
  
  
-export default ServiceCard;
+export default PlanCard;

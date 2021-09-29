@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import './Toolbar.css';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import {ReactComponent as Logo} from '../../images/svg/Logo.svg'
 
 class Toolbar extends Component{
     
@@ -9,10 +10,8 @@ class Toolbar extends Component{
         return(
             <header className="toolbar">
                 <nav className="toolbar_navigation">
-                    <div>
-                        <DrawerToggleButton Click={this.props.DrawerClickHandler} />
-                    </div>
-                    <div  className="toolbar_logo"><a href="#">ٍSmartDev</a></div>
+                     
+                    <div  className="toolbar_logo"><a href="#"><Logo /></a></div>
                     <div className="spacer"></div>
                     <div className="toolbar_navigation_items">
                     <ul >
@@ -37,9 +36,9 @@ class Toolbar extends Component{
                     </div>
                     <div className="spacer"></div>
                     <div className="log_btn_container">
-                        <button className="log_btn"></button>
+                        <button className="singin_btn">Sing In</button>
                         
-                        <button className="log_btn"></button>
+                        <button className="singup_btn">Sing Up</button>
                          
                     </div>
                     

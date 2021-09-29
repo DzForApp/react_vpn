@@ -8,36 +8,26 @@
     position: relative;
     display: flex;
     flex-direction: column;
-  
-    background-color: green;
-    z-index: 0;
-
-
     
 }
-.intro-box {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    align-content: center;
-    justify-content: center;
-    background-color: red;
+.home_intro{ 
    
-}
-.service-box{
+} 
+.service_box{
     display: flex;
     flex-direction: row;
-    background-color: red;
-    width: 90%;
-    padding-top: 2.5rem;
+    align-items: center;
+    width: 1140px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 96px;
     padding-inline-end: 1.5rem;
-    padding-bottom: 2.5rem;
+   
      
     
 }
  
- 
-.home-box{
+.home_box{
     
     position: relative;
     width: 100%;
