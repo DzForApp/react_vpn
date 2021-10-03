@@ -7,10 +7,19 @@ import {ReactComponent as Spacer} from "../../images/svg/spacer.svg";
 import { ReactComponent as Location} from "../../images/svg/location.svg";
 import { ReactComponent as User} from "../../images/svg/user.svg";
 import { ReactComponent as Server} from "../../images/svg/Server.svg";
-import PlanSection from "../PlanSection/PlanSection";
+import {ReactComponent as Icons} from "../../images/svg/plan_icon.svg"; 
+import PlanCard from "../PlanSection/PlanCard";
 
 class Home extends Component{
     render(){
+        const features1 = [{itemName: 'Unlimite Bandwitch'}, {itemName: 'Encrypted Connection'},
+                          {itemName: 'Encrypted Connection'} ,{itemName: 'Encrypted Connection'}];
+        const features2 =[{itemName: 'Unlimite Bandwitch'}, {itemName: 'Encrypted Connection'},
+        {itemName: 'Encrypted Connection'} ,{itemName: 'Encrypted Connection'}];
+        const features3 = [{itemName: 'Unlimite Bandwitch'}, {itemName: 'Encrypted Connection'},
+                           {itemName: 'Encrypted Connection'} ,{itemName: 'Encrypted Connection'},
+                           {itemName: 'Unlimite Bandwitch'}, {itemName: 'Encrypted Connection'},
+                           {itemName: 'Encrypted Connection'} ,{itemName: 'Encrypted Connection'}];
         return(
             <div className="title" >
           
@@ -31,7 +40,12 @@ class Home extends Component{
                     <FeatureIntro />
                     </div>
                     <div className="plan_section"> 
-                    <PlanSection />
+                        <PlanCard num="Free Plan " price="Free" Icon={<Icons />}   items = {features1} />
+                        
+                        <PlanCard num="Standart Plan" price="$9 /mo" Icon={<Icons />} items = {features2} />
+                       
+                        <PlanCard num="Premium Plan"  price="$12 /mo"  Icon={<Icons />} items = {features3}/>
+
                     </div>
                   
                 </div>
