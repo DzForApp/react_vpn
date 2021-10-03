@@ -40,3 +40,12 @@
     flex-direction: row;
     justify-content: center;
 }
+.map_section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  /* to center conternt horizontal */
+    text-align: center;
+    width: 100%;
+}

@@ -9,6 +9,7 @@ import { ReactComponent as User} from "../../images/svg/user.svg";
 import { ReactComponent as Server} from "../../images/svg/Server.svg";
 import {ReactComponent as Icons} from "../../images/svg/plan_icon.svg"; 
 import PlanCard from "../PlanSection/PlanCard";
+import Maps from "../mapSection/map";
 
 class Home extends Component{
     render(){
@@ -46,6 +47,9 @@ class Home extends Component{
                        
                         <PlanCard num="Premium Plan"  price="$12 /mo"  Icon={<Icons />} items = {features3}/>
 
+                    </div>
+                    <div className="map_section">
+                        <Maps />
                     </div>
                   
                 </div>
