@@ -1,5 +1,5 @@
 .title h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    
     align-content: center;
 }
 .title {
@@ -23,9 +23,11 @@
     margin-top: 96px;
     padding-inline-end: 1.5rem;
     
-   
-     
-    
+}
+.feature_intro {
+    margin-bottom: 0px; 
+    height: 414.71px;
+    padding: 96px 0px 200px 0px;
 }
  
 .home_box{
@@ -37,15 +39,52 @@
 }
 .plan_section {
     display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+     
+   
+}
+.plan_title {
+    text-align: center;   
+    height: auto; 
+    padding-bottom: 60px;
+}
+
+.plan_cards {
+    display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; 
+    height: 760px;
 }
 .map_section{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  /* to center conternt horizontal */
-    text-align: center;
-    width: 100%;
+      /* to center conternt horizontal */
+    margin-top: 150px;
+
+}
+.customer_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+     
+   
+}
+.customer_title {
+    text-align: center;   
+    height: auto; 
+    padding-bottom: 60px;
+     
+    background-color: aqua;
+}
+
+.customer_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    height: 760px;
 }

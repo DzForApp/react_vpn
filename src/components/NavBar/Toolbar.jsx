@@ -36,7 +36,7 @@ class Toolbar extends Component{
                     </div>
                     <div className="spacer"></div>
                     <div className="log_btn_container">
-                        <button className="singin_btn">Sing In</button>
+                        <button className="singin_btnn">Sing In</button>
                         
                         <button className="singup_btn">Sing Up</button>
                          

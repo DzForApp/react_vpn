@@ -18,12 +18,17 @@
   flex-direction: column;
     position: relative;
     width: 330px;
-    height: 760px; 
-    margin: 50px;
+    height: 760px;
+     
+    margin: 0px 50px 0px 50px;
      
     align-items: center;
     text-align: center;
-    border: solid; 
+    border: ridge; 
+    border-radius: 10px;
+}
+.plan_body:hover {
+  border-color: red;
 }
 .plan_icon {
   position: relative;

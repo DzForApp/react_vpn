@@ -10,6 +10,7 @@ import { ReactComponent as Server} from "../../images/svg/Server.svg";
 import {ReactComponent as Icons} from "../../images/svg/plan_icon.svg"; 
 import PlanCard from "../PlanSection/PlanCard";
 import Maps from "../mapSection/map";
+import CustemerCard from "../CustomerSection/CustemerCard";
 
 class Home extends Component{
     render(){
@@ -21,6 +22,8 @@ class Home extends Component{
                            {itemName: 'Encrypted Connection'} ,{itemName: 'Encrypted Connection'},
                            {itemName: 'Unlimite Bandwitch'}, {itemName: 'Encrypted Connection'},
                            {itemName: 'Encrypted Connection'} ,{itemName: 'Encrypted Connection'}];
+        const customer =[{itemName: 'Unlimite Bandwitch'}, {itemName: 'Encrypted Connection'},
+        {itemName: 'Encrypted Connection'}];
         return(
             <div className="title" >
           
@@ -41,15 +44,32 @@ class Home extends Component{
                     <FeatureIntro />
                     </div>
                     <div className="plan_section"> 
+                    <div className="plan_title">
+                        <h2>Choose Your Plan</h2>
+                        <p>Let's choose the package that is best for you and explore it happily and <br />cheerfully.</p>
+                    </div>
+                    <div className="plan_cards">
                         <PlanCard num="Free Plan " price="Free" Icon={<Icons />}   items = {features1} />
                         
                         <PlanCard num="Standart Plan" price="$9 /mo" Icon={<Icons />} items = {features2} />
                        
                         <PlanCard num="Premium Plan"  price="$12 /mo"  Icon={<Icons />} items = {features3}/>
-
+                        </div>
                     </div>
                     <div className="map_section">
                         <Maps />
+                    </div>
+                    <div className="customer_section"> 
+                    <div className="customer_title">
+                        <h2>Trusted by Thousands of <br /> Happy Customer</h2>
+                        <p>These are the stories of our customers who have joined us <br /> with great pleasure when using this crazy feature.</p>
+                    </div>
+                    <div className="customer_cards">
+                        <CustemerCard num="Viezh Robert " price="Warsaw, Poland" Icon={<Icons />}   > Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best.</CustemerCard>
+                        <CustemerCard num="Yessica Christy " price="Free" Icon={<Icons />}   > Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best.</CustemerCard>
+                        <CustemerCard num="Kim Young Jou " price="Free" Icon={<Icons />}   > Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best.</CustemerCard>
+                         
+                        </div>
                     </div>
                   
                 </div>

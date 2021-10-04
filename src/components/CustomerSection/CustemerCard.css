@@ -1,0 +1,49 @@
+.main_plan{
+  position: relative;
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: auto;
+    top: 10px;
+}
+ 
+ 
+.customer_body {
+  display: flex;
+  flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 230px;
+     
+    margin: 0px 20px 0px 20px;
+     
+    align-items: center;
+    text-align: center;
+    border: ridge; 
+    border-radius: 10px;
+}
+.customer_body:hover {
+  border-color: red;
+}
+.customer_icon {
+  position: relative;
+  width: 50px;
+  height: 50px; 
+}
+.customer_detail {
+   
+    
+    
+} 
+
+.customer_price {
+  
+ 
+} 
+.customer_review {
+  position: relative;
+  width: auto;
+  height: 650px;
+  background-color: aqua;
+}
