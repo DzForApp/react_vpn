@@ -44,6 +44,5 @@
 .customer_review {
   position: relative;
   width: auto;
-  height: 650px;
-  background-color: aqua;
+  height: 150px; 
 }

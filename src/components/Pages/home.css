@@ -70,7 +70,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    background-color: aqua;
+    height: 590px;
+    width: 1300px;
+    margin-left: 150px;
      
    
 }
@@ -84,7 +87,50 @@
 
 .customer_cards {
     display: flex;
+    flex-direction: column;
+    
+}
+.customer_card_list {
+    display: flex;
     flex-direction: row;
     justify-content: center; 
-    height: 760px;
+    height: 260px;
+    margin-right: 0px;
+}
+.sub_cards {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+}
+.sub_cards > Btn {
+    width: 50px;
+}
+
+.subscrib_section {
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    margin-left: 150px;
+    margin-top: 155px;
+    height: 233px;
+    width: 1140px;
+    align-items: center; 
+}
+.subscrib_text{
+    
+    margin-left: 70px;
+}
+#btn-sub {
+    margin-left: 340px;
+}
+
+.footer_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 563.12px;
+    width: 1436px;
+    border: solid;
 }

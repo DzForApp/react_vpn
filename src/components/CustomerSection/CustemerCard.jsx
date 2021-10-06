@@ -15,24 +15,26 @@ import Btn from "../btn/btn";
        
     }
    
-   
+
     render() {
       let itemsToRender;
+      
+   const {reviewer_name, Icon, review} = this.props;
       return (
        <div className="customer_body">
-                    <div className="customer_icon">{this.props.Icon} </div>
+                    <div className="customer_icon">{Icon} </div>
                     <div className="customer_detail">
-                        <h3 >{this.props.num}</h3>
+                        <h3 >{reviewer_name}</h3>
                         
                       </div>
                        <div className="feature_listp">
-                         <p>{this.review}</p>
+                        
                             
                       </div>
 
                       <div className="customer_price">
                        < p className="customer_review">
-                         {this.children}
+                         {review}
                          </p>
                       </div>
                       <div className="btn_select">

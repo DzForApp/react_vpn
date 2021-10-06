@@ -8,9 +8,11 @@ import { ReactComponent as Location} from "../../images/svg/location.svg";
 import { ReactComponent as User} from "../../images/svg/user.svg";
 import { ReactComponent as Server} from "../../images/svg/Server.svg";
 import {ReactComponent as Icons} from "../../images/svg/plan_icon.svg"; 
+import {ReactComponent as Reviewer} from "../../images/svg/reviewer.svg"; 
 import PlanCard from "../PlanSection/PlanCard";
 import Maps from "../mapSection/map";
 import CustemerCard from "../CustomerSection/CustemerCard";
+import Btn from "../btn/btn";
 
 class Home extends Component{
     render(){
@@ -65,12 +67,66 @@ class Home extends Component{
                         <p>These are the stories of our customers who have joined us <br /> with great pleasure when using this crazy feature.</p>
                     </div>
                     <div className="customer_cards">
-                        <CustemerCard num="Viezh Robert " price="Warsaw, Poland" Icon={<Icons />}   > Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best.</CustemerCard>
-                        <CustemerCard num="Yessica Christy " price="Free" Icon={<Icons />}   > Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best.</CustemerCard>
-                        <CustemerCard num="Kim Young Jou " price="Free" Icon={<Icons />}   > Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best.</CustemerCard>
-                         
+                        <div className="customer_card_list">
+                        <CustemerCard num="Viezh Robert " reviewer_name={"Warsaw, Poland"} Icon={<Reviewer />}   review="Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best." />
+                        <CustemerCard num="Yessica Christy " reviewer_name={"Yessica Christy"} Icon={<Reviewer />}   review="“I like it because I like to travel far and still can connect with high speed.”" />
+                        <CustemerCard num="Kim Young Jou " reviewer_name={"Kim Young Jou"} Icon={<Reviewer />}   review="“This is very unusual for my business that currently requires a virtual private network that has high security.”"/>
+                        </div>
+                         <div className="sub_cards">
+                             <Btn />
+                             <Btn />
+                         </div>
                         </div>
                     </div>
+                    <div className="subscrib_section">
+                      
+                        <div className="subscrib_text">
+                       
+                       <h2 className="subscrib_title">Subscribe Now for<br /> Get Special Features!</h2>
+                       <p className="subscrib_subtitle"><b>LaslesVPN</b> is a private virtual network that <br />has unique features and has high security. </p>
+                       
+                       </div>
+                       
+                        <div   className="subscrib_img"> 
+                            <button id="btn-sub" className="intro_btn ">Subscrib Now</button>
+                        </div>
+
+                    </div>
+                    <footer className="footer_section">
+                        <div>Logo</div>
+                        <div>
+                            <ul>
+                                <lh>Product</lh>
+                                <li>Download</li>
+                                <li>Pricing</li>
+                                <li>Locatino</li>
+                                <li>Server</li>
+                                <li>Countries</li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <lh>Engage</lh>
+                                <li>LaslesVPN ? </li>
+                                <li>FAQ</li>
+                                <li>Tutorials</li>
+                                <li>About Us</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms of Service</li>
+                                 
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <lh>Earn Money</lh>
+                                <li>Affiliate</li>
+                                <li>Become Partner</li>
+                                
+                                 
+                            </ul>
+                        </div>
+                    </footer>
                   
                 </div>
                
