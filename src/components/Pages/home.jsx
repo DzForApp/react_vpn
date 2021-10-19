@@ -12,7 +12,8 @@ import {ReactComponent as Reviewer} from "../../images/svg/reviewer.svg";
 import PlanCard from "../PlanSection/PlanCard";
 import Maps from "../mapSection/map";
 import CustemerCard from "../CustomerSection/CustemerCard";
-import Btn from "../btn/btn";
+import Rbtn from "../btn/rbtn";
+import Mbtn from "../btn/minBtn";
 
 class Home extends Component{
     render(){
@@ -73,8 +74,9 @@ class Home extends Component{
                         <CustemerCard num="Kim Young Jou " reviewer_name={"Kim Young Jou"} Icon={<Reviewer />}   review="“This is very unusual for my business that currently requires a virtual private network that has high security.”"/>
                         </div>
                          <div className="sub_cards">
-                             <Btn />
-                             <Btn />
+                             <Mbtn />
+                             <Rbtn />
+                        
                          </div>
                         </div>
                     </div>
