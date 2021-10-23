@@ -1,14 +1,12 @@
 
  .App{
     
-    width: 1440px;
-    height: 5189px;
-      position: relative;
-    
-     background-color: red;
-     justify-content: center;
+    width: 100% ;
+    height: 5189px; 
+    background-color: #F6F6F6;
     
 }
  .main_container{ 
-  width: 100%;
+  width: 100%; 
+  justify-content: center;
  }
