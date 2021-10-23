@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import './Toolbar.css';
-import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import './Toolbar.css'; 
 import {ReactComponent as Logo} from '../../images/svg/Logo.svg'
 
 class Toolbar extends Component{
