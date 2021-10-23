@@ -21,8 +21,9 @@ class Maps extends Component{
                       <Map />  
                       </div>  
                       <div>
+                          <Spotify />
                           <Sponsord /> 
-                       
+                          <Reddit />
                       </div>
                 </div>
           

@@ -11,7 +11,7 @@ import "./minBtn.css";
     render() {
      
       return (
-        <div className="mtn_container">
+        <div className="mbtn_container">
             <button className="ml_btn"></button>
             <button className="m_btn"></button>
             <button className="m_btn"></button>

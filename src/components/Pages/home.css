@@ -69,8 +69,7 @@
 .customer_section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: aqua;
+    justify-content: center; 
     height: 590px;
     width: 1300px;
     margin-left: 150px;
@@ -81,8 +80,7 @@
     text-align: center;   
     height: auto; 
     padding-bottom: 60px;
-     
-    background-color: aqua;
+      
 }
 
 .customer_cards {
@@ -100,11 +98,11 @@
 .sub_cards {
     display: flex;
     flex-direction: row;
-    margin-left: 60%;
+    justify-content: space-between;
+    align-content: center; 
+    margin-left: 25px;
 }
-.sub_cards > Btn {
-    width: 50px;
-}
+
 
 .subscrib_section {
     border: solid;

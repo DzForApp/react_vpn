@@ -12,8 +12,8 @@ import "./rbtn.css";
      
       return (
         <div className="rbtn_container">
-            <button className="r_btn">--</button>
-            <button className="r_btn">--</button>
+            <button className="r_btn"><i class="arrow left"></i></button>
+            <button className="r_btn"><i class="arrow right"></i></button>
         </div>
        
       )
