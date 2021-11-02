@@ -101,6 +101,7 @@
     justify-content: space-between;
     align-content: center; 
     margin-left: 25px;
+   
 }
 
 
@@ -115,6 +116,8 @@
     height: 233px;
     width: 1140px;
     align-items: center; 
+    border-style: none;
+    box-shadow: 2px 3px 10px 0px rgb(0, 0, 0);
 }
 .subscrib_text{
     
@@ -130,5 +133,6 @@
     justify-content: center;
     height: 563.12px;
     width: 1436px;
-    border: solid;
+    border:ridge;
+    border-radius: 1px;
 }

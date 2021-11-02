@@ -1,7 +1,7 @@
 import React ,{Component} from "react";  
 import './map.css';  
 import {ReactComponent as Map} from "../../images/svg/map.svg";
-import {ReactComponent as Sponsord} from "../../images/svg/Sponsored.svg";
+import {ReactComponent as Netflix} from "../../images/svg/netflix.svg";
 import {ReactComponent as Amazon} from "../../images/svg/amazon.svg";
 import {ReactComponent as Reddit} from "../../images/svg/reddit.svg";
 import {ReactComponent as Spotify} from "../../images/svg/spotify.svg";
@@ -21,9 +21,9 @@ class Maps extends Component{
                       <Map />  
                       </div>  
                       <div>
-                          <Spotify />
-                          <Sponsord /> 
-                          <Reddit />
+                          <Netflix  width="300" height="100"/>
+                         
+                          <Spotify  width="300" height="100"/>
                       </div>
                 </div>
           
