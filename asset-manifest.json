@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/react_vpn/static/css/main.4d5a12d9.chunk.css",
+    "main.js": "/react_vpn/static/js/main.aa1a2910.chunk.js",
+    "main.js.map": "/react_vpn/static/js/main.aa1a2910.chunk.js.map",
+    "runtime-main.js": "/react_vpn/static/js/runtime-main.0927b947.js",
+    "runtime-main.js.map": "/react_vpn/static/js/runtime-main.0927b947.js.map",
+    "static/js/2.10d41a38.chunk.js": "/react_vpn/static/js/2.10d41a38.chunk.js",
+    "static/js/2.10d41a38.chunk.js.map": "/react_vpn/static/js/2.10d41a38.chunk.js.map",
+    "index.html": "/react_vpn/index.html",
+    "precache-manifest.e625e6b2d58e6346d979d5e2d55e928d.js": "/react_vpn/precache-manifest.e625e6b2d58e6346d979d5e2d55e928d.js",
+    "service-worker.js": "/react_vpn/service-worker.js",
+    "static/css/main.4d5a12d9.chunk.css.map": "/react_vpn/static/css/main.4d5a12d9.chunk.css.map",
+    "static/js/2.10d41a38.chunk.js.LICENSE.txt": "/react_vpn/static/js/2.10d41a38.chunk.js.LICENSE.txt",
+    "static/media/Logo.acb4a8d2.svg": "/react_vpn/static/media/Logo.acb4a8d2.svg",
+    "static/media/Server.9440348c.svg": "/react_vpn/static/media/Server.9440348c.svg",
+    "static/media/amazon.6dd0fdc1.svg": "/react_vpn/static/media/amazon.6dd0fdc1.svg",
+    "static/media/check.04e0293a.svg": "/react_vpn/static/media/check.04e0293a.svg",
+    "static/media/discord.b37cbdec.svg": "/react_vpn/static/media/discord.b37cbdec.svg",
+    "static/media/feat_icon.0db4ff77.svg": "/react_vpn/static/media/feat_icon.0db4ff77.svg",
+    "static/media/feature.177be65a.svg": "/react_vpn/static/media/feature.177be65a.svg",
+    "static/media/hello.bebf68e4.svg": "/react_vpn/static/media/hello.bebf68e4.svg",
+    "static/media/location.4563107c.svg": "/react_vpn/static/media/location.4563107c.svg",
+    "static/media/map.4fad8bf8.svg": "/react_vpn/static/media/map.4fad8bf8.svg",
+    "static/media/netflix.66215d70.svg": "/react_vpn/static/media/netflix.66215d70.svg",
+    "static/media/plan_icon.d478c30b.svg": "/react_vpn/static/media/plan_icon.d478c30b.svg",
+    "static/media/reddit.66dd5b6d.svg": "/react_vpn/static/media/reddit.66dd5b6d.svg",
+    "static/media/reviewer.c563d30a.svg": "/react_vpn/static/media/reviewer.c563d30a.svg",
+    "static/media/spacer.34667021.svg": "/react_vpn/static/media/spacer.34667021.svg",
+    "static/media/spotify.3f3af7e4.svg": "/react_vpn/static/media/spotify.3f3af7e4.svg",
+    "static/media/user.fc1d502e.svg": "/react_vpn/static/media/user.fc1d502e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0927b947.js",
+    "static/js/2.10d41a38.chunk.js",
+    "static/css/main.4d5a12d9.chunk.css",
+    "static/js/main.aa1a2910.chunk.js"
+  ]
+}
