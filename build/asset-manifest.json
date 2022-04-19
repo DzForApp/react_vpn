@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d5a12d9.chunk.css",
+    "main.js": "/static/js/main.3ec19d52.chunk.js",
+    "main.js.map": "/static/js/main.3ec19d52.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa0c7e68.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa0c7e68.js.map",
+    "static/js/2.10d41a38.chunk.js": "/static/js/2.10d41a38.chunk.js",
+    "static/js/2.10d41a38.chunk.js.map": "/static/js/2.10d41a38.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bfff8ee671f58fae941d341d9022e44d.js": "/precache-manifest.bfff8ee671f58fae941d341d9022e44d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4d5a12d9.chunk.css.map": "/static/css/main.4d5a12d9.chunk.css.map",
+    "static/js/2.10d41a38.chunk.js.LICENSE.txt": "/static/js/2.10d41a38.chunk.js.LICENSE.txt",
+    "static/media/Logo.acb4a8d2.svg": "/static/media/Logo.acb4a8d2.svg",
+    "static/media/Server.9440348c.svg": "/static/media/Server.9440348c.svg",
+    "static/media/amazon.6dd0fdc1.svg": "/static/media/amazon.6dd0fdc1.svg",
+    "static/media/check.04e0293a.svg": "/static/media/check.04e0293a.svg",
+    "static/media/discord.b37cbdec.svg": "/static/media/discord.b37cbdec.svg",
+    "static/media/feat_icon.0db4ff77.svg": "/static/media/feat_icon.0db4ff77.svg",
+    "static/media/feature.177be65a.svg": "/static/media/feature.177be65a.svg",
+    "static/media/hello.bebf68e4.svg": "/static/media/hello.bebf68e4.svg",
+    "static/media/location.4563107c.svg": "/static/media/location.4563107c.svg",
+    "static/media/map.4fad8bf8.svg": "/static/media/map.4fad8bf8.svg",
+    "static/media/netflix.66215d70.svg": "/static/media/netflix.66215d70.svg",
+    "static/media/plan_icon.d478c30b.svg": "/static/media/plan_icon.d478c30b.svg",
+    "static/media/reddit.66dd5b6d.svg": "/static/media/reddit.66dd5b6d.svg",
+    "static/media/reviewer.c563d30a.svg": "/static/media/reviewer.c563d30a.svg",
+    "static/media/spacer.34667021.svg": "/static/media/spacer.34667021.svg",
+    "static/media/spotify.3f3af7e4.svg": "/static/media/spotify.3f3af7e4.svg",
+    "static/media/user.fc1d502e.svg": "/static/media/user.fc1d502e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa0c7e68.js",
+    "static/js/2.10d41a38.chunk.js",
+    "static/css/main.4d5a12d9.chunk.css",
+    "static/js/main.3ec19d52.chunk.js"
+  ]
+}
